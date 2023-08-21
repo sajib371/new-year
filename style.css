@@ -70,16 +70,80 @@ header{
     padding-left: 60px;
 }
 .three{
-    margin-bottom: 50px;
+    margin-bottom: 80px;
     margin-left: 140px;
     margin-right: 100px;
     /* background-image: url(images/gradient1.png); */
     
 }
-
-  
+.uniq{
+    font-size: 22px;
+    position: absolute;
+    top: 25px;
+    left: 64px;
+    color: rgb(143, 205, 239);
+}
+.uniq2 button{
+    position: absolute;
+    top: 155px;
+    left: 64px;
+}
+.container {
+    position: relative;
+}
 .three img{
     width: 90%;
     margin-left: 28px;
     
+}
+footer{
+    background-color: black;
+}
+.foot{
+    display: flex;
+    gap: 80px;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    align-items: center;
+}
+.first{
+    width: 60%;
+}
+.first h1{
+    padding-left: 20px;
+}
+.second{
+    width: 40%;
+}
+.first h1,p{
+    color: white;
+}
+.emaill{
+    padding: 15px 25px;
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 5px;
+
+}
+.ic{
+    margin-left: 3px;
+}
+.ic img{
+    height: 35px;
+    width: 35px;
+    margin-left: 13px;
+}
+.second h2{
+    color: white;
+}
+.buttton{
+    color: white;
+    background-color: rgb(66, 66, 145);
+    font-weight: 600;
+    padding: 15px 24px;
+    border: none;
+    border-radius: 10px;
 }
